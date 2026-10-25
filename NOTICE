@@ -1,0 +1,23 @@
+Krea 2 Edit V2 for Forge Neo
+Copyright 2026 eduardoabreu81
+
+This extension is licensed under the GNU Affero General Public License v3.0 (see LICENSE).
+
+It contains code ported from a project licensed under the Apache License, Version 2.0 (see LICENSE-APACHE); its
+notice follows.
+
+forge_krea2edit/geometry.py and forward.py are ported from comfyui-krea2edit 2.0.0
+(https://github.com/lbouaraba/comfyui-krea2edit, commit 13ef60f, __init__.py: _imgids_offset, _place_refs,
+_fit_encode_image, _ref_attn_bias and krea2_edit_forward), Copyright Lars Bouaraba, Apache License 2.0. Changes:
+written against Forge Neo's Krea 2 DiT and engine instead of ComfyUI's, the per-reference boost mask left out.
+tests/reference/krea2edit_comfy.py is a transcription of those functions without the ComfyUI framework, used only
+by the tests.
+
+forge_krea2edit/forward.py follows Forge Neo's own Krea 2 forward (https://github.com/Haoming02/sd-webui-forge-classic,
+branch neo, backend/nn/krea.py), GNU Affero General Public License v3.0; tests/reference/forge_krea.py transcribes it
+for the tests.
+
+The Krea 2 Identity Edit / General Edit LoRAs are not part of this extension. They are by Lars Bouaraba
+(https://huggingface.co/conradlocke/krea2-identity-edit) under the Krea 2 Identity Edit V2 License and the Krea 2
+Community License Agreement: free for personal and non-commercial use, commercial use needs a license from their
+author. Krea 2 is (c) Krea.ai, Inc., under the Krea 2 Community License Agreement.

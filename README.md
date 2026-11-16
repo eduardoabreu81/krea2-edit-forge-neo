@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/banner.jpg" alt="Krea 2 Edit for Forge Neo banner"/>
+</p>
+
 # ✏️ Krea 2 Edit V2 for Forge Neo
 
 <div align="center">
